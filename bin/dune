@@ -1,0 +1,5 @@
+(executable
+ (name main)
+ (public_name swagger)
+ (libraries swagger ppx_deriving_cmdliner)
+ (preprocess (pps ppx_deriving_cmdliner)))

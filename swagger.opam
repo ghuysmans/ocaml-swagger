@@ -14,6 +14,7 @@ depends: [
   "atdgen"   {>= "1.12.0"}
   "re"       {>= "1.7.3"}
   "yojson"   {>= "1.6.0"}
+  "ppx_deriving_cmdliner"
 ]
 available: [ ocaml-version >= "4.05.0" ]
 synopsis: "Swagger 2.0 code generator for OCaml"
